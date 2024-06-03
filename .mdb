@@ -1,0 +1,8 @@
+{
+  "projectName": "template-site",
+  "meta": {
+    "type": "frontend"
+  },
+  "packageManager": "npm",
+  "hash": "216e33fd"
+}
