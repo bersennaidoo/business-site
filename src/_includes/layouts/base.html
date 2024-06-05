@@ -2,15 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/css/tailwind.css" />
-   
-    <title>Document</title>
-  </head>
-  <body class="bg-primary-green-50">
-    {% include "../components/header.html" %}
-    {{content}}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/assets/css/temple.css"/>
 
-    <script src="/assets/js/tw-elements.umd.min.js"></script>
+    <title>{{title}}</title>
+  </head>
+  <body class="">
+    {{content}} {% include "../components/footer.html" %}
+
+    <script src="/assets/js/jquery-3.7.0.slim.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
   </body>
 </html>
